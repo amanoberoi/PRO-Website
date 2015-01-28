@@ -1,0 +1,100 @@
+ * { margin: 0; padding: 0; }
+ .clear { clear: both; }
+ body { background-color: #fffff; font-family: Georgia, "Times New Roman", Times, serif; font-size: .8em; color: #3e382a; margin: 0; padding: 0; }
+ div.paragraph { line-height: 1.5; }
+ p { line-height: 1.5; }
+ h1, h2, h3 { line-height: 1.5; }
+ h2 { padding: .3em 0; }
+ div.paragraph { padding: .5em 0; }
+ p { padding: .5em 0; }
+ img.image-left { margin-right: 15px; float: left; }
+ img.image-right { margin-left: 15px; float: right; }
+ #header-top { width: 760px; margin: 0 auto; }
+ #wrapper { margin-top: -19px; background: #fff url(theme/background.png?528507) repeat-x center top; }
+ #content-wrapper { position: relative; width: 760px; margin: 0 auto; }
+ #icon { background: transparent url(theme/icons.png?528507) no-repeat center bottom; position: absolute; z-index: 10; left: 644px; bottom: 10px; width: 122px; height: 96px; }
+ a { color: #a2ac81; text-decoration: none; }
+ a:hover { color: #788d32; }
+ #header-top { position: relative; }
+ #header-wrapper { background-color: #333333; }
+ #logo, #logo a, #logo .wsite-logo a { color: #fff; text-decoration: none; }
+ #header a:hover { color: #FFFFFF; }
+ #content { margin-top: 24px; padding-bottom: 25px; }
+ #banner { width: 760px; display: inline-block; margin: 19px 0 0 0; padding: 0 0 18px 0; border-bottom: 1px #e9e9e9 solid; }
+ #navigation { margin: 0 0 11px 0; height: 43px; width: 700px; float: left; position: relative; z-index: 11; }
+ #navigation ul { margin: 0; padding: 0; }
+ #navigation li { float: left; font-size: 16px; text-align: center; list-style: none; margin: 0; height: 35px; }
+ #navigation a:link { color: #585f3e; text-decoration: none; }
+ #navigation a { height: 35px; display: inline-block; padding: 19px 20px 0 30px; }
+ #navigation a:hover, #navigation li#active a { color: #fff; text-decoration: none; background: url(theme/a-hover-bg.jpg?528507) repeat-x; }
+ #navigation a:visited { color: #585f3e; }
+ #active a:link { color: #fff; }
+ #active a:hover { color: #fff; }
+ #active a:visited { color: #fff; }
+ #wsite-menus .wsite-menu li a { border: none; border-top: 1px solid #7c855d; background: #97a078; padding: 7px; color: #fff; }
+ #wsite-menus .wsite-menu li a:hover { background: #acb68b; }
+ #header { width: 100%; height: 125px; }
+ #header, #header table { border-collapse: collapse; border-spacing: 0; }
+ #header td { vertical-align: middle; text-align: left; }
+ #logo { padding: 25px 0 45px 0; font-size: 2.5em; font-style: italic; }
+ #header-right { padding: 0 140px 20px 10px; }
+ #header-right table { width: 1px; }
+ #header-right table, #header-right .search, #header-right .wsite-search { clear: right; float: right; }
+ #header-right td { padding: 0; }
+ #header-right .phone-number .wsite-text { color: #fff; font-size: 13px; font-weight: bold; font-family: Arial; display: block; white-space: nowrap; margin: 5px 0 5px 15px; }
+ #header-right .wsite-social { vertical-align: middle; margin: 5px 0 5px 12px; }
+ #header-right .wsite-social-item { width: 23px; height: 23px; margin: 0 0 0 3px; }
+ #header-right .wsite-social-rss { background: url(theme/rss.jpg?528507) no-repeat; }
+ #header-right .wsite-social-linkedin { background: url(theme/link.jpg?528507) no-repeat; }
+ #header-right .wsite-social-facebook { background: url(theme/facebook.jpg?528507) no-repeat; }
+ #header-right .wsite-social-twitter { background: url(theme/twitter.jpg?528507) no-repeat; }
+ #header-right .wsite-search { margin: 5px 0 5px 15px; }
+ #header-right .wsite-search-input { color: #fff; width: 135px; height: 26px; border: none; padding: 0 4px 0 4px !important; background: url(theme/input-bg.jpg?528507) no-repeat; }
+ #header-right .wsite-search-button { position: relative; width: 62px; height: 26px; cursor: pointer; border: none; background: url(theme/submit.jpg?528507) no-repeat; }
+ .bannerleft { float: left; width: 329px; height: 228px; padding: 0 44px 0 0; }
+ .bannerleft h2 { font-size: 24px; color: #3e382a; margin: 0; font-weight: bold; padding: 60px 0 0 0; }
+ .bannerleft div.paragraph { color: #3e382a; font-size: 14px; line-height: 130%; padding: 10px 0 0 0; font-family: Georgia; }
+ .bannerleft p { color: #3e382a; font-size: 14px; line-height: 130%; padding: 10px 0 0 0; font-family: Georgia; }
+ .bannerleft .wsite-button { margin: 30px 0 0 0; }
+ .bannerright { width: 377px; float: left; height: 278px; padding: 4px; border: 1px #aeaeae solid; }
+ .bannerright .wsite-header { width: 377px; height: 278px; background: url(theme/banner-landing.jpg?528507) no-repeat; }
+ .tall-header-page #banner { width: 752px; height: 228px; padding: 4px; border: 1px #aeaeae solid; }
+ .tall-header-page .wsite-header { width: 752px; height: 228px; background: url(theme/banner-tall.jpg?528507) no-repeat; }
+ .short-header-page #banner { width: 752px; height: 148px; padding: 4px; border: 1px #aeaeae solid; }
+ .short-header-page .wsite-header { width: 752px; height: 148px; background: url(theme/banner-short.jpg?528507) no-repeat; }
+ .splash-page { background: url(theme/body-splash-bg.jpg?528507) repeat-x; }
+ .splash-page #icon { left: 444px; }
+ .splash-page #wrapper { width: 562px; margin: 0 auto; }
+ .splash-page #content-wrapper { width: 562px; margin: 0 auto; }
+ .splash-page #banner { width: 552px; height: 148px; display: inline-block; margin: 19px 0 0 0; padding: 4px; border: 1px #aeaeae solid; }
+ .splash-page .wsite-header { width: 552px; height: 148px; background: url(theme/banner-splash.jpg?528507) no-repeat; }
+ .splash-page #footer-content { width: 562px; }
+ #footer { background: #C7C4B3 url(theme/footer_background.gif?528507) repeat-x center top; padding-top: 25px; padding-bottom: 29px; text-align: right; }
+ #footer a { color: #1d1d1d; }
+ #footer a:hover { color: #5f5c4f; }
+ #footer-content { width: 760px; margin: 0 auto; font-family: "lucida grande", arial, sans-serif; }
+ .wsite-form-label { display: inline-block; color: #3e382a; font-size: 13px; font-weight: bold; padding: 10px 0 8px 0; }
+ .form-radio-container { color: #3e382a; font-size: 13px; }
+ .wsite-form-input { background: #fff; color: #3e382a; border: 1px solid #b3b3b3; border-radius: 3px; }
+ .form-select { width: 380px; color: #3e382a; background: #fff; border: 1px solid #b3b3b3; border-radius: 3px; }
+ .wsite-button { font-family: Arial; color: #fff !important; height: 34px; display: inline-block; font-size: 12px; border: none; font-weight: bold; text-decoration: none; text-transform: uppercase; padding: 0 10px 0 0; background: url(theme/button_small_grey.png?528507) no-repeat 100% -105px; outline: none; position: relative; }
+ .wsite-button:hover { background-position: 100% -140px; }
+ .wsite-button:active { background-position: 100% -175px; }
+ .wsite-button-inner { color: #fff !important; height: 34px; line-height: 34px; display: block; font-size: 12px; font-weight: bold; border: none; text-decoration: none; padding: 0 10px 0 20px; background: url(theme/button_small_grey.png?528507) no-repeat 0 0; outline: none; }
+ .wsite-button:hover .wsite-button-inner { background-position: 0 -35px; }
+ .wsite-button:active .wsite-button-inner { background-position: 0 -70px; }
+ .wsite-button-large { height: 41px; background: url(theme/button_large_grey.png?528507) no-repeat 100% -126px; padding: 0 10px 0 0; }
+ .wsite-button-large:hover { background-position: 100% -168px; }
+ .wsite-button-large:active { background-position: 100% -210px; }
+ .wsite-button-large .wsite-button-inner { height: 40px; line-height: 41px; padding: 1px 10px 0 20px; background: url(theme/button_large_grey.png?528507) no-repeat 0 0; }
+ .wsite-button-large:hover .wsite-button-inner { background-position: 0 -42px; }
+ .wsite-button-large:active .wsite-button-inner { background-position: 0 -84px; }
+ .wsite-button-large.wsite-button-highlight { color: #585f3e !important; background-image: url(theme/button_large_green.png?528507); }
+ .wsite-button-large.wsite-button-highlight .wsite-button-inner { color: #585f3e !important; background-image: url(theme/button_large_green.png?528507); }
+ .wsite-button-highlight { color: #585f3e !important; background-image: url(theme/button_small_green.png?528507); }
+ .wsite-button-highlight .wsite-button-inner { color: #585f3e !important; background-image: url(theme/button_small_green.png?528507); }
+
+div.paragraph ul, div.paragraph ol { padding-left: 25px !important; margin: 5px 0 !important; overflow:hidden; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
